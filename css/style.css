@@ -10,6 +10,8 @@ header {
     text-align: left;
 }
 
-.displayCar1, .displayCar2 {
-    
+#displayCar1, #displayCar2 {
+    padding: 10px;
+    margin: 10px;
 }
+
