@@ -1,0 +1,15 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(232, 231, 231);
+}
+
+header {
+    background-color: lightgray;
+    padding: 10px 10px 10px 30px; 
+    text-align: left;
+}
+
+.displayCar1, .displayCar2 {
+    
+}
