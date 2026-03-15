@@ -13,5 +13,7 @@ header {
 #displayCar1, #displayCar2 {
     padding: 10px;
     margin: 10px;
+    line-height: 1.5;
 }
+
 
