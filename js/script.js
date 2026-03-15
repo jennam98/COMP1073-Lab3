@@ -16,3 +16,7 @@ class modelCar {
         this.price = price;
     }
 }
+
+const car1 = new modelCar("Volkswagen", "Classic Bus", 1962, "Red", "5060D-KIT-RUBY", "764072011325", "Un-Boxed", "New", "1:32", 5.99);
+
+
