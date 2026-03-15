@@ -23,6 +23,7 @@ const displayCar1 = document.getElementById("displayCar1");
 
 displayCar1.innerHTML = `
 <h2>${car1.make} ${car1.model} (${car1.year})</h2>
+<img id="car1-image" src="images/car1.jpg" alt="${car1.make} ${car1.model}" width="300">
 <ul>
     <li>Colour: ${car1.colour}</li>
     <li>SKU: ${car1.sku}</li>
