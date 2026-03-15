@@ -19,4 +19,20 @@ class modelCar {
 
 const car1 = new modelCar("Volkswagen", "Classic Bus", 1962, "Red", "5060D-KIT-RUBY", "764072011325", "Un-Boxed", "New", "1:32", 5.99);
 
+const displayCar1 = document.getElementById("displayCar1");
+
+displayCar1.innerHTML = `
+<h2>${car1.make} ${car1.model} (${car1.year})</h2>
+<ul>
+    <li>Colour: ${car1.colour}</li>
+    <li>SKU: ${car1.sku}</li>
+    <li>UPC: ${car1.upc}</li>
+    <li>Packaging: ${car1.packaging}</li>
+    <li>Condition: ${car1.condition}</li>
+    <li>Scale: ${car1.scale}</li>
+    <li>Price: $${car1.price}</li>
+</ul> 
+`;
+
+
 
